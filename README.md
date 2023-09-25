@@ -1,0 +1,1 @@
+Basic email template responsive to different viewpoints on mobile, tablets, and desktop.

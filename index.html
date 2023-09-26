@@ -13,18 +13,44 @@
 <body>
     <!-- nav bar -->
     <header>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        
-        <div class="container">
-            <a class="navbar-brand ms-auto" href="#">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <!-- hamburger menu -->
+                <div class="d-lg-none d-xl-none user-logo">
+                    <i class="fa-solid fa-bars" style="color: #ecf1f8;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>></i>
+                    <!--hamburger menu content-->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Adil Potter </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <div class="d-flex flex-column justify-content-between" id="account-section-area">
+                          <button class="btn btn-outline-secondary"><i class="fa-solid fa-user me-2"></i> Account</button>
+                          <button class="btn btn-outline-secondary"><i class="fa-solid fa-person me-2"></i> Personal details</button>
+                          <button class="btn btn-outline-secondary"><i class="fa-solid fa-lock me-2"></i> Password and security</button>
+                          <button class="btn btn-outline-secondary"><i class="fa-solid fa-gear me-2"></i> Setting</button>
+                          <button class="btn btn-outline-secondary"><i class="fa-solid fa-question me-2"></i> Help</button>
+                          <button class="btn btn-outline-secondary"><i class="fa-solid fa-right-from-bracket me-2"></i> Sign-out</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+              </div>
+    
+                <!-- account icon -->
+                <a class="navbar-brand ms-auto" href="#">
                 <i class="fa-solid fa-user"></i>
-            </a>
-          </div>
-
-        <!-- hamburger menu -->
-
-    </nav>
-
+                </a>
+                <!-- search bar -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+</div>
+            </div>
+        </nav>
+    </header>
     <div class="container-fliud my-container">
         <div class="row">
             <div class="col-12 my-col">

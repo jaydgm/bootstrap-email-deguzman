@@ -46,18 +46,17 @@
             </div>
         </nav>
     </header>
-    <div class="row row-cols-1">
-        
+
+    <div class="row">
+        <div class="col-lg-2 bg-light">
+
+            <div class="row row-cols-1">
         <!-- email previews that will be responsive to all screens-->
             <div class="col border border-dark">
-                <div class="p-1 email-preview">
                 Clockify <br> Tried extra features? <br> Clockify is more than just a time tracker. Our additional features, help you better manage projects and teammates.
-                </div>
             </div>
             <div class="col border border-dark">
-                <div class="p-1 email-preview">
                   Alexander Lucas (Classroom) <br> NEW MATERIAL <br> Academind Bootstrap 4 Tutorials - Introduction to Bootstrap and Bootstrap Grid.
-                </div>
             </div>
             <div class="col border border-dark rounded-3">
                   Canva <br> Unlock the top 3 premium Canva features.
@@ -77,10 +76,37 @@
             <div class="col border border-dark rounded-3">
                   Alexander Lucas (Classroom) <br> New material: "Reviewing Git and Github.com…"
             </div> 
+            </div>
         </div> 
 
         <!-- email highlight to show on large screen -->
-    
+        <div class="h-100 p-0 col-md-7 col-lg-5 d-none d-md-none d-lg-block">
+
+            <div class="bg-light w-80 m-4 mb-0 rounded-5" id="col-3-opened-email-div">
+                <div class="row h-75 d-inline-block ">
+                  <div class="col-11 m-4 fs-5" >Email that is currently opened<br> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, impedit nam facere repellendus dignissimos illo fugiat recusandae rerum eveniet porro voluptatibus odio totam dolorum sint magnam quam laboriosam itaque ad.</div>
+                </div>
+            
+                <!--col-3 reply div-->
+                <div class="bg-dark opacity-50 m-4 rounded-5" id="col-3-reply-email-div">
+
+                    
+                        <div class="col-11 fs-5 mb-4 ms-4 text-white" > <br>  Reply <br> </div>
+                        <div class="form-floating d-flex justify-content-center text-dark">
+                          <textarea class="form-control w-75 fs-5" id="replay-textarea" placeholder="Leave a comment here"></textarea>
+                        </div>
+
+                    
+
+                <!--the sent button on col-3-->
+                <div class="d-flex justify-content-end ms-3 w-100 mt-2 ">
+                    <button type="button" class="btn btn-secondary w-25 fs-5 rounded-5">Send</button>
+                </div>
+
+
+
+
+            </div>
           
     </div>
     

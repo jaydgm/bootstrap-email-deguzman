@@ -16,8 +16,8 @@
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
                 <!-- hamburger menu -->
-                <div class="user-logo">
-                    <i class="fa-solid fa-bars" style="color: #ecf1f8;" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvasExample"></i>></i>
+                <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars" style="color: #ecf1f8;" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvasExample"></i>
                     <!--hamburger menu content-->
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                         <div class="offcanvas-header">
@@ -33,7 +33,22 @@
                         </div>
                     </div>
                 </div>
-    
+                
+                <!-- compose button -->
+                <div class="compose ms-auto">
+                    <i class="fa-regular fa-envelope" style="color: #ecf1f8;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" href="#offcanvas" role="button" aria-controls="offcanvasRight"></i>
+                    <!--hamburger menu content-->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                        <div class="offcanvas-body">
+
+                        </div>
+                    </div>
+                </div>
+
                 <!-- account icon -->
                 <a class="navbar-brand ms-auto" href="#">
                 <i class="fa-solid fa-user"></i>
@@ -77,6 +92,9 @@
                 <div class="col border border-dark rounded-3">
                     LinkedIn<br>Top companies are hiring <br> Check out the full list of the LinkedIn Top Companies to see who's hiring.
                 </div> 
+                <div class="col border border-dark rounded-3">
+                    incmedia.org <br> IT'S HERE <br> Hi, friend! Are you ready to start school? Let’s make sure you (or the students in your family) 
+                </div>
             </div>
 
         </div> 
@@ -93,16 +111,6 @@
                 <div class="message-body"><br><br>Take on cool weather in style with our Fleece Collection. Crafted with soft, cozy, lightweight, and functional fabrics.</div>    
             </div>
         </div> 
-                
-        <!--compose/reply column-->
-        <button type="button" class="btn btn-primary btn-lg btn-block">Compose</button>
-        
-
-
-
-
-        </div>
-          
     </div>
     
     

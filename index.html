@@ -36,60 +36,47 @@
                 
                 <!-- compose button -->
                 <div class="d-flex justify-content-end align-items-center gap-3">
-                <div class="compose ms-auto d-lg-none d-xl-none">
-                    <i class="fa-regular fa-envelope" style="color: #ecf1f8;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" href="#offcanvas" role="button" aria-controls="offcanvasRight"></i>
-                    <!--compose message content-->
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasLabel">New Message</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                        <div class="offcanvas-body">
-                            <form>
-                                <div class="form-group">
-                                  <label for="formGroupExampleInput"></label>
-                                  <input type="text" class="form-control-to" id="formGroupExampleInput" placeholder="To:">
-                                </div>
-                                <div class="form-group">
-                                  <label for="formGroupExampleInput2"></label>
-                                  <input type="text" class="form-control-subject" id="formGroupExampleInput2" placeholder="Subject:">
-                                </div>
-                                <textarea name="paragraph_text" cols="30" rows="10"></textarea>
-                            </form>
-                            <button type="button" class="btn btn-primary btn-lg">Send</button>   
+                    <div class="compose ms-auto">
+                        <i class="fa-regular fa-envelope ms-auto d-lg-none d-xl-none" style="color: #ecf1f8;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" href="#offcanvas" role="button" aria-controls="offcanvasRight"></i>
+                        <button type="button" class="compose-lg btn btn-primary btn-lg ms-auto d-none d-lg-block d-xl-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" href="#offcanvas" role="button" aria-controls="offcanvasRight">Compose</button>
+                        <!--compose message content-->
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasLabel">New Message</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput"></label>
+                                        <input type="text" class="form-control-to" id="formGroupExampleInput" placeholder="To:">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput2"></label>
+                                        <input type="text" class="form-control-subject" id="formGroupExampleInput2" placeholder="Subject:">
+                                    </div>
+                                    <textarea name="paragraph_text" cols="30" rows="10"></textarea>
+                                </form>
+                                <button type="button" class="btn btn-primary btn-lg">Send</button>   
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- account icon -->
-                <a class="account navbar-brand ms-auto" href="#">
-                    <i class="fa-solid fa-user"></i>
-                </a>
-                <!-- search bar -->
-                <form class="d-flex" role="search" id="search-bar">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+
+                    <!-- account icon -->
+                    <a class="account navbar-brand ms-auto" href="#">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <!-- search bar -->
+                    <form class="d-flex" role="search" id="search-bar">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
-
-    <!-- sub header for lg screen -->
-    <div class="container-fluid">
-        <div class="row row-cols-1 d-none d-md-none d-lg-block mt-3">
-            <div class="col">
-                <a class="navbar-brand" href="#">
-                    <i class="fa-regular fa-envelope fa-2xl"></i>
-                </a>Compose
-                <a class="navbar-brand" href="#">
-                    <i class="fa-sharp fa-solid fa-envelope-open fa-2xl" style="color: #3074e8;"></i>
-                </a>Read
-            </div>
     
-        </div>
-    </div>
-
     <div class="row">
         <div class="col-md-4 d-none d-md-block d-lg-none">
             <div class="card" style="width: auto">

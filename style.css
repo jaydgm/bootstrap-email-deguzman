@@ -6,6 +6,14 @@
     font-size: 24px;
 }
 
+.subject {
+    padding: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 100%;
+    background-color: darkgray;
+}
+
 .email-previews {
     background-color: darkgrey;
 }

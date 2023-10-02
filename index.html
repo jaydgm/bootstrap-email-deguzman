@@ -61,8 +61,8 @@
                 </div>
 
                 <!-- account icon -->
-                <a class="navbar-brand ms-auto" href="#">
-                <i class="fa-solid fa-user"></i>
+                <a class="account navbar-brand ms-auto" href="#">
+                    <i class="fa-solid fa-user"></i>
                 </a>
                 <!-- search bar -->
                 <form class="d-flex" role="search" id="search-bar">
@@ -74,23 +74,35 @@
     </header>
 
     <!-- sub header for lg screen -->
-<div class="container-fluid">
-<div class="row row-cols-1 d-none d-md-none d-lg-block mt-3">
-    <div class="col">
-        <a class="navbar-brand" href="#">
-            <i class="fa-regular fa-envelope fa-2xl"></i>
-        </a>Compose
-        <a class="navbar-brand" href="#">
-            <i class="fa-sharp fa-solid fa-envelope-open fa-2xl" style="color: #3074e8;"></i>
-        </a>Read
-    </div>
+    <div class="container-fluid">
+        <div class="row row-cols-1 d-none d-md-none d-lg-block mt-3">
+            <div class="col">
+                <a class="navbar-brand" href="#">
+                    <i class="fa-regular fa-envelope fa-2xl"></i>
+                </a>Compose
+                <a class="navbar-brand" href="#">
+                    <i class="fa-sharp fa-solid fa-envelope-open fa-2xl" style="color: #3074e8;"></i>
+                </a>Read
+            </div>
     
-</div>
-</div>
+        </div>
+    </div>
 
     <div class="row">
-        <div class="col-lg-3 bg-light">
+        <div class="col-md-4 d-none d-md-block d-lg-none">
+            <div class="card" style="width: auto">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Inbox</li>
+                  <li class="list-group-item">Sent</li>
+                  <li class="list-group-item">Junk</li>
+                  <li class="list-group-item">Deleted</li>
+                  <li class="list-group-item">Archive</li>
+                  <li class="list-group-item">Junk</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="col-lg-3 col-md-8 bg-light">
             <!-- in order to get one email preview per line-->
             <div class="email- previews row row-cols-1">
                 <!-- email previews that will be responsive to all screens-->

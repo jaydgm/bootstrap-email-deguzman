@@ -2,6 +2,7 @@
     text-align: center;
 }
 
+
 .btn-highlight {
     background-color:rgb(33, 145, 226);
 }
@@ -19,7 +20,7 @@
     background-color: darkgray;
 }
 
-.email-previews {
+.email-prev-bar {
     background-color: darkgrey;
 }
 

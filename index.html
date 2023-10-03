@@ -42,19 +42,32 @@
                             <button type="button" class="btn btn-dark">Sign-out</button>
                         </div>
                     </div>
-                </div>
+                </div>             
 
                 <!-- buttons for desktop -->
-                <div class="buttons d-flex gap-2">
-                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto d-none d-lg-block d-xl-block" href="#" role="button">Inbox</button>
-                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto d-none d-lg-block d-xl-block" href="#" role="button">Sent</button>
-                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto d-none d-lg-block d-xl-block" href="#" role="button">Junk</button>
-                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto d-none d-lg-block d-xl-block" href="#" role="button">Deleted</button>
-                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto d-none d-lg-block d-xl-block" href="#" role="button">Archive</button>
+                <div class="buttons d-flex gap-2 d-none d-lg-block d-xl-block">
+                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto" href="#" role="button">Inbox</button>
+                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto" href="#" role="button">Sent</button>
+                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto" href="#" role="button">Junk</button>
+                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto" href="#" role="button">Deleted</button>
+                    <button type="button" class="compose-lg btn btn-primary btn-sm ms-auto" href="#" role="button">Archive</button>
                 </div>
+                <!-- filter -->
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle show d-none d-md-block d-lg-none " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Filter
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Unread</a>
+                      <a class="dropdown-item" href="#">Pinned</a>
+                      <a class="dropdown-item" href="#">Has attachments</a>
+                    </div>
+                </div>   
 
                 <!-- compose, acct, search elements -->
                 <div class="d-flex align-items-center gap-3">
+                    <!-- compose -->
                     <div class="compose">
                         <i class="fa-regular fa-envelope ms-auto d-lg-none d-xl-none" style="color: #ecf1f8;"
                             data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" href="#offcanvas" role="button"
@@ -118,6 +131,17 @@
         <div class="col-lg-3 col-md-8 bg-light">
             <!-- in order to get one email preview per line-->
             <div class="email-previews d-flex flex-column">
+                <!-- filter dropdown for phone and desktop view -->
+                <div class="email-prev dropdown">
+                    <a class="btn btn-secondary dropdown-toggle show d-md-none d-lg-block" style="width:100%" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Filter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Unread</a>
+                      <a class="dropdown-item" href="#">Pinned</a>
+                      <a class="dropdown-item" href="#">Has attachments</a>
+                    </div>
+                </div>   
                 <!-- email previews that will be responsive to all screens-->
                 <button type="button" class="email-highlight email-prev btn">UNIQLO USA <br>Fleece to meet you<br>Take on cool weather in style with our Fleece Collection.<br>
                     <a class="btn btn-primary" href="#" role="button">Reply</a>

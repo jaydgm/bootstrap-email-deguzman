@@ -1,0 +1,52 @@
+09/18/2023
+	3:30PM - 5PM: outlining my webpage
+	- created 2 sketches for mobile 
+	
+09/20/2023
+	11:30PM - 12:00PM: outlining my webpage
+	- created a sketch for desktop
+
+09/21/2023
+	4:11PM - 5:19PM: created wireframing for webpage
+	- created mobile and tablet views
+	- started desktop view 
+
+09/21/2023
+	7:45PM - 8:05PM: finished wireframing for webpage
+	- finished making desktop view
+	
+09/25/2023
+	9:44AM - 12:58PM, 4:40PM - 5:40PM, 8:55PM - 10:19PM: working my first draft email template
+	- started creating responsivness for mobile view
+	- read docs on different bootstrap components
+	- watched videos on using bootstrap grid
+	- read bootstrap docs on utilities
+	- made bulk of navbar for mobile view
+
+09/26/2023
+	9:04AM - 12:11PM, 3:14PM - 4:31PM,  9:30PM - 10:39PM: worked on first draft email template
+	- added bulk of essential components to mobile view
+	- started scaling components for larger viewports
+
+09/27/2023
+	9:15AM - 12:24PM, 3:43PM - 5:28PM: worked on first draft email template
+	- added respective compose message sections for small-large screens
+	- fixed some placement issues with header elements
+	
+10/1/2023
+	7:22PM - 8:05PM, 6:30PM - 7:20PM: making changes to email page based on code review feedback
+	- replaced some features to make 3 breakpoints more clear for responsiveness 
+	
+10/2/2023
+	10:43PM - 2:33PM: Work on responsiveness and styling of email template
+	- Add more essential elements like reply links to email messages
+	- styled compose offcanvas
+	- Change positioning of some elements 
+	
+10/3/23
+	9:58AM - 12:19PM, 3:35PM - 4:26PM: Put finishing touches on email template
+	- Removed rendundant code
+	- Made better class names
+	- Add appropriate comments
+	- Add additional elements like a modal for acct icon and filter for email preview bar
+
